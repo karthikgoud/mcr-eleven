@@ -1,0 +1,56 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 600px;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.myForm {
+  width: 100%;
+  display: grid;
+  grid-template-columns: [labels] auto [controls] 1fr;
+  grid-auto-flow: row;
+  grid-gap: 0.8em;
+  background: #eee;
+  padding: 1.2em;
+}
+
+.myForm > label {
+  grid-column: labels;
+  grid-row: auto;
+}
+.myForm > input,
+.myForm > textarea,
+.myForm > button {
+  grid-column: controls;
+  grid-row: auto;
+  border: none;
+  padding: 0.7rem;
+}
+
+.myForm > button {
+  grid-column: controls;
+  grid-row: auto;
+  border: none;
+  padding: 0.5rem;
+}
+
+.closeBtn {
+  background-color: gray;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}

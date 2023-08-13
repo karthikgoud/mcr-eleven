@@ -1,0 +1,33 @@
+.detailPage {
+  display: flex;
+  width: 800px;
+  margin: 2rem auto;
+  background-color: #f0f0ef;
+  padding: 1rem;
+}
+
+.detailPage img {
+  width: 300px;
+}
+
+.detailInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnCont button {
+  border: none;
+  background-color: #333332;
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}

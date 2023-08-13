@@ -1,0 +1,39 @@
+.headerCompo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  background-color: #333332;
+  color: white;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.searchInput {
+  border: none;
+  width: 300px;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.navitems {
+  display: flex;
+  gap: 1rem;
+}
+
+.navitems a {
+  text-decoration: none;
+  color: white;
+}
+
+.navitems a:hover {
+  color: lightgray;
+}
