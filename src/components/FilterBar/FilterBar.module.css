@@ -1,0 +1,19 @@
+.filterCOnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  height: 60px;
+  padding: 0 2rem;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.addBtn {
+  padding: 0.4rem 1rem;
+  background-color: #333332;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

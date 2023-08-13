@@ -1,0 +1,8 @@
+.mainCont {
+  width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
